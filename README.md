@@ -1,6 +1,6 @@
-# Infosys AI Chatbot
+# Infosys Knowledge Bot
 
-An intelligent chatbot powered by LLM (Large Language Model) technology that provides information about Infosys. The chatbot uses advanced vector storage and natural language processing to deliver accurate and contextual responses.
+An intelligent chatbot powered by LLM (Large Language Model) technology that provides comprehensive knowledge about Infosys. The bot uses advanced vector storage and natural language processing to deliver accurate and contextual responses.
 
 ## Features
 
@@ -29,8 +29,8 @@ An intelligent chatbot powered by LLM (Large Language Model) technology that pro
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Supriya2903/AI_Chatbot_LLM.git
-cd AI_Chatbot_LLM
+git clone https://github.com/Supriya2903/infosys-knowledge-bot.git
+cd infosys-knowledge-bot
 ```
 
 2. Create and activate a virtual environment:
