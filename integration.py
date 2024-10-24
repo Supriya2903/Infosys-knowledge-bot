@@ -7,7 +7,7 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import VectorParams, Distance
 
 # Path to the PDF file
-pdf_path = "C:\\Users\\supri\\OneDrive\\Desktop\\infosys_chatbot\\formatted30042024.pdf"
+pdf_path = "formatted30042024.pdf"
 
 # Read PDF and extract text
 def extract_text_from_pdf(pdf_path):
@@ -51,7 +51,7 @@ embedding_dimension = len(sample_embedding)
 vectors_config = VectorParams(size=embedding_dimension, distance=Distance.COSINE)
 
 # Create a new collection with a unique name
-collection_name = "vectorpdf02052024aaj_v4"  # Updated collection name
+collection_name = "infosys_knowledge_v1"
 
 try:
     # Try to create the collection
@@ -61,7 +61,6 @@ try:
     )
     print(f"Created new collection: {collection_name}")
 except Exception as e:
-    # If collection already exists, we can proceed
     print(f"Note: {str(e)}")
     pass
 
